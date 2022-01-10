@@ -11,8 +11,7 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color:gold;
-
+  background-image: url('background.jpg');
 }
 .box
 {
@@ -40,7 +39,7 @@ body
   content: '';
   position: absolute;
   background: rgb(0, 0, 0);
-  inset: 5px;
+  inset: 6px;
   border-radius: 50%;
 }
 @keyframes animate{
